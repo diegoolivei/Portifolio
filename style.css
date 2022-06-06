@@ -1,0 +1,399 @@
+body {
+    background-color: rgb(5, 5, 5);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));
+}
+
+.fundo{
+    background-image: url(tentaitv2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+}
+
+.barra {
+    width: 100%;
+    height: 4em;
+    background-color: rgb(156, 155, 155) ;
+    margin-top: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+
+.containerinicio{
+    width: 30em;
+    text-align: center;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+   
+}
+
+.containerinicio:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+h1 {
+    color:white ;
+    text-shadow:1px 1px 1px rgb(200, 200, 200);
+    font-size: 2.5em;
+    
+}
+
+.btn {
+
+    cursor: pointer;
+    width: 12em;
+    height: 2.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgb(59, 246, 34);
+    position: relative;
+    color: rgb(34, 33, 33);
+    border: 3px solid rgb(34, 33, 33);
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(34, 33, 33);
+    color: rgb(59, 246, 34);
+    
+
+}
+
+.containermid{
+    width: 30%;
+    position: relative;
+    left: 35%;
+    top: 6em;
+    text-align: center;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.containermid:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#btnproj {
+    cursor: pointer;
+    width: 12em;
+    height: 2.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgb(59, 246, 34);
+    position: relative;
+    color: rgb(34, 33, 33);
+    border: 3px solid rgb(34, 33, 33);
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    border-radius: 20px;
+}
+
+
+#btnproj:hover {
+    background-color: rgb(34, 33, 33);
+    color: rgb(59, 246, 34);
+
+}
+
+p {
+    color:white; 
+    text-shadow:1px 1px 1px rgb(200, 200, 200);
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+
+h2 {
+    font-size: 2em;
+    color: rgb(156, 155, 155);
+    text-shadow:1px 1px 1px rgb(200, 200, 200);
+    text-align: center;
+    position: relative;
+    bottom: 0.5em;
+    font-weight: bold;
+}
+
+.icones {
+    width: 10em;
+    position: relative;
+    bottom: 1.5em;
+    left: 6em;
+    padding: 0;
+    margin: 0;
+}
+
+.containerfim {
+    width: 22em;
+    height: 20%;
+    position: absolute;
+    right: 2em;
+    top: 75%;
+    background-color: rgb(34, 33, 33,1.5);
+border: 3px solid rgb(59, 246, 34);
+
+}
+
+
+.insta {
+    padding: 0.9em;
+    width: 2.5em;
+    float: left;
+    position: relative;
+    left: 45%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    background-image: linear-gradient(transparent 0%,
+            transparent 90%,
+            rgb(59, 246, 34) 90%,
+            rgb(59, 246, 34) 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+}
+
+.insta:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.git {
+    padding: 0.9em;
+    width: 2.5em;
+    float: left;
+    position: relative;
+    left: 45%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    cursor: pointer;
+    background-image: linear-gradient(transparent 0%,
+            transparent 90%,
+            rgb(59, 246, 34) 90%,
+            rgb(59, 246, 34) 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+}
+
+.git:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.final{
+    width: 100%;
+    height: 52em;
+    position: absolute;
+    top:100%;
+    text-align: center;
+    background-image: url(tentaitv2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+
+}
+
+.h1footer{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top:20%;
+    font-size: 4em;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.1em black ;
+}
+
+.listafinal{
+    list-style: none;
+    color: white;
+    display:inline;
+    position: relative;
+    align-items: center;
+    top: 10em;
+padding: 0.4em;
+margin: 2em;
+font-size: 1.5em;
+cursor: pointer;
+-webkit-transition: -webkit-transform .5s ease;
+transition: transform .5s ease;
+background-image: linear-gradient(transparent 0%,
+        transparent 90%,
+        rgb(59, 246, 34) 90%,
+        rgb(59, 246, 34) 100%);
+background-repeat: no-repeat;
+background-size: 0% 100%;
+background-position-x: right;
+transition: background-size 300ms;
+
+}
+
+.listafinal:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.ul2{
+    text-align: center;
+    position: relative;
+    top: 15.5em;
+    left: 1em ;
+}
+
+.imgjogoVelha{
+    width: 12em;
+    height: 6em;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 15em;
+   right:4em;
+    border: 3px solid rgb(59, 246, 34);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.imgjogoVelha:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.imgagencia{
+    width: 12em;
+    margin: 0;
+    height: 6em;
+    padding: 0;
+    position: relative;
+    top: 15em;
+    left: 1.7em;
+    border: 3px solid rgb(59, 246, 34);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.imgagencia:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.imgchurras{
+    width: 12em;
+    margin: 0;
+    padding: 0;
+    height: 6em;
+    position: relative;
+    top: 15em;
+left:8.5em;
+border: 3px solid rgb(59, 246, 34);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.imgchurras:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.imgworkshop{
+    width: 12em;
+    margin: 0;
+    height: 6em;
+    padding: 0;
+    position: relative;
+    top: 15em;
+    left: 30em;
+    border: 3px solid rgb(59, 246, 34);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.imgworkshop:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.imgcrono{
+    width: 12em;
+    margin: 0;
+    height: 6em;
+    padding: 0;
+    position: relative;
+    top: 15em;
+    border: 3px solid rgb(59, 246, 34);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.imgcrono:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.calcImc{
+    width: 12em;
+    margin: 0;
+    height: 6em;
+    padding: 0;
+    position: relative;
+    top: 33em;
+    right: 29em;
+    border: 3px solid rgb(59, 246, 34);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.calcImc:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+a{
+    text-decoration: none;
+}
+
+#anchor{
+  
+    width: 100%;
+    height: 1.5em;
+    margin:0;
+    padding: 0;
+    position: relative;
+    top:22.5em;
+    font-size: 1.5em;
+    color:rgb(6, 6, 6) ;
+    background-color: rgb(156, 155, 155);
+    opacity: 0.4;
+}
+
+/* 
+    cores principais
+
+    color: rgb(5, 5, 5); black
+    color: rgb(59, 246, 34); verde
+    color: rgb(248, 241, 241); branco
+
+    black colors
+
+    color: rgb(6, 6, 6);
+    color: rgb(34, 33, 33);
+    color: rgb(156, 155, 155);
+
+    */
